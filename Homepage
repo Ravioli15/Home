@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE> Warren's Home Page </TITLE>
+		
+		<style>
+
+		body {
+			margin:15px;
+		}
+
+		a:link { text-decoration: none;}
+		a:link { color: yellow; }
+		a:visited { color: violet; }
+		a:hover { text-decoration: underline; }
+		a:hover { color: indigo }
+		p.solid {border-style: solid;}
+
+		//.header {
+			border: 5px skyblue solid;
+			background-color: darkblue;
+		}
+
+		.table {
+			position: relative;
+
+		}
+		.rabble {
+			position: relative;
+			text-align: center;
+
+
+		}
+		.lists {
+			font-size: 1em;
+			font-weight: bold;
+		}
+		.examples {
+			
+		}
+
+		.video {
+			//float:left;
+			box-shadow: 0 0 15px crimson;
+		}
+
+		.cream:hover {
+			transform: scale(6.0);
+		}
+
+		.circle {
+			border-radius: 50%;
+			box-shadow: 0 0 15px white;
+		}
+
+		.redbox {
+			box-shadow: 10px 10pt 2em black;
+		}
+		.redbox:hover {
+			transform: scale(1.1);
+		}
+
+		.floater {
+			float:left;
+		}
+
+		</style>
+	</HEAD>
+
+		
+
+		<BODY background = homepix/line.jpg text=yellow link= ffffff vlink = e47833>
+
+			<Address> This document was created by Warren Fletcher IV (fletcherw19@uww.edu)
+			Last modified 22/2/17</Address>
+			<div class = "header">
+				<center><H1> Warren's Home Page</H1></center>
+			</div>
+
+			<div= table>
+				<table style = "width:100%">
+				<tr>
+					<th><a href= "https://www.youtube.com/channel/UClxelY1uTy5ZaGeHwZWTw_w"> Youtube</a></th>
+
+					<th><a href= "https://www.facebook.com/guywhoisalive>Facebook" </a></th>
+
+					<th><a href = "https://www.studynet2.herts.ac.uk/ptl/Students366.nsf/Homepage?readform">Studynet</a></th>
+
+					<th><a href= "https://post.uww.edu/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fpost.uww.edu%2fowa%2f%23authRedirect%3dtrue">Outlook</a></th>
+
+					<th><a href=https://mail.google.com/mail/u/0/#inbox>Gmail</a></th>
+				</tr>
+				</table>
+			</div>
+
+			<div class = rabble>
+
+			
+				<P> I am a full-time student at UH located in Hatfield</P>
+				<I> Web Scripting is <B> Pretty cool </B> </i>
+				<p><a href=https://www.w3schools.com/csSref/css_colors.asp> Here's a library of css colors</a>
+				<a href = "http://www.colorpicker.com/"> Heres the css color slider thing</a>
+				<a href = "http://www.cssfontstack.com/"> Here's a font reference page</a>	
+				<a href="https://getbootstrap.com/examples/grid/"> Bootstrap Grid Example</a>	
+				<a href= "https://www.w3schools.com/tags/tag_form.asp"> w3school form element </a>		
+				<a href= "https://www.w3schools.com/html/html_form_input_types.asp"> input element</a>
+				<a href= "https://css-tricks.com/almanac/properties/f/float/"> notes on floating</a></p>
+				<br>
+				 <img src=../../public/wallpapers/actionbastion.jpg  width="50%" height="50000%">
+				  <img class = "circle" src=../../public/wallpapers/actionbastion.jpg  width="600px" height="50000%">
+				<br>
+					<!-- The aspect ratios for images whose size is defined by percents is one to one. The above image 'actionbastion' has a width of 50%, and thus it doesn't matter that the image height is 50000%. BUT! if the width specification is removed, the image won't in fact become collossal, because the largest that it can get is the resolution that it is saved as in its source file-->
+				<video class="video" width="400" controls autoplay="autoplay" loop="loop">				
+	  				<source src="disaster.mp4" type="video/mp4"> 				
+				</video>
+				<br>
+				<div class = "col-md-6 circle" style = "background-color: red; border: 2px black solid;">
+					ohhhhhhhhh boy
+				</div>
+				<div class = "col-md-6 redbox" style = "background-color: red; border: 2px black solid;">
+					<a href="clemhome.html">ohhhhhhhhh boy</a>
+				</div>
+
+			</div>
+				<br>
+				<H2> Music </H2>
+				<hr>
+
+			<div class = lists>
+				<UL>
+					<H3> <LI> Electro Swing </LI></H3> 
+					<LI> <button onclick = "alert('Joey has a jazz flute')"> Jazz </button> </LI>
+				</UL>
+
+				<OL>
+					<LI><a href="https://www.studynet1.herts.ac.uk/crs/16/5COM1059-0206.nsf/Teaching+Documents?Openview&count=9999&restricttocategory=main">C Family </a></LI>
+					<LI><a href="https://www.studynet1.herts.ac.uk/crs/16/5COM1063-0206.nsf/Homepage?ReadForm">Web Scripting </a></LI>
+					<LI><a href= "https://www.studynet1.herts.ac.uk/crs/16/5PSY1009-0206.nsf/Teaching+Documents?Openview&count=9999&restricttocategory=main">Cyberpsychology </a></LI>
+					<LI><a href="https://www.studynet1.herts.ac.uk/crs/16/4BUS1014-0206.nsf/Teaching+Documents?Openview&count=9999&restricttocategory=main">IT BUS </a></LI>
+				</OL>
+			</div>
+
+			<textarea rows="4" cols="30">
+I wonder where that lizard is going..
+			</textarea>
+			<div class=examples>
+				<img src = "homepix/walk.gif"> 
+				<A HREF=https://www.studynet2.herts.ac.uk/ptl/Students366.nsf/Homepage?readform> UH Homepage,</A>
+				<A href="bstrap.htm"> Bootstrapped Page,</A>
+				<a href="hpets.html"> Vet Page,</a>
+				<a href="drjfred.html"> Narwhanix Studios</a>
+				<br>
+				<a href="homepix/walking.gif"> <img src = homepix/walking.gif></A>
+			</div>
+
+				<img id="myDIV" src="https://www.clipartsgram.com/image/195145648-galaxy-tumblr-wallpaper-desktop-background-ga3ty.jpg" width="600px" align="right" >
+				</img>
+
+
+			<style>
+			#myDIV {
+			}
+			</style>
+
+			<button onclick="myFunction()">Effect of Black Hole Phenomenon </button>
+
+
+			<p> The above button uses javascript! The element will not take up any space when the display property is set to "none".</p>
+
+			<script>
+			function myFunction() {
+			    var x = document.getElementById('myDIV');
+			    if (x.style.display === 'none') {
+			        x.style.display = 'block';
+			    } else {
+			        x.style.display = 'none';
+			    }
+			}
+			</script>
+
+			<table border="10" width="300px" cellspacing="20" cellpadding="10" blue="green"> <caption><b>Table Heading</b>
+				<tr>
+					<th></th> 
+					<th>col one heading</th> 
+					<th colspan="2">col 2 + 3</th> 
+				</tr>
+				<tr><th>row 1 heading</th>
+					<td valign="top">item 1.1</td>
+					<td>item 1.2</td>
+					<td>item 1.3</td>
+				</tr>
+				<tr  align="right">
+					<th rowspan="2">row 2 + 3 heading</th>
+					<td>item 2.1</td>
+					<td>item 2.2</td>
+					<td>item 2.3</td>
+				</tr>
+				<tr  align="center">
+					<td>item 3.1</td>
+					<td valign="bottom"><font face="verdana"</font>item 3.2</td>
+					<td><img class=cream width="50px" src="homepix/cwcream.jpg"> This is dubious at best</td>
+				</tr>
+			</table>
+
+			<form>
+				<input type="text" name="Username" size="30" maxlength="40">
+		<p>Select your experience:</p>
+				<input type ="radio" name="input experience" value="beginner">Beginner</input>
+				<input type ="radio" name="input experience" value="adept">Adept</input>
+				<input type ="radio" name="input experience" value="experienced">Experienced</input>
+
+		<p>Select all experiences that apply:</p>
+				<input type ="checkbox" name="input experience" value="beginner">Beginner</input>
+				<input type ="checkbox" name="input experience" value="adept">Adept</input>
+				<input type ="checkbox" name="input experience" value="experienced">Experienced</input>
+
+		<p>Please make your choice of wine:</p>
+				<select name="variety"> Variety
+					<option> red
+					<option selected> blue
+					<option> pink
+					<option> purple
+				</select>
+
+				<input type="submit" value="click me, fool!"></input>
+				<input type="reset" value="its all ogre now"></input>
+			</form>
+
+
+			<div class=references>
+				<footer> <Address> Warren Fletcher
+				<BR> Information Technology, University of Hertfordshire
+				<BR> Mangrove Road, Hertford, Herts SG13 8QF
+				<BR> Phone: +1 414-324-3667
+				<BR> E-mail:<A Href=mailto:wf16aag@herts.ac.uk> wf16aag@herts.ac.uk</A>
+				</Address> </footer>
+			</div>
+		</BODY>
+</HTML>
