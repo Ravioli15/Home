@@ -1,0 +1,97 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+	<title> Clemhome </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<style>
+
+	body {
+		background-color:51C475;
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	}
+
+	img {
+		width:250px;
+	}
+
+	table {
+
+	}
+
+	th {
+		background-color:forestgreen;
+		border: 3px seagreen solid;
+		border-radius: 2px;
+		text-align: center;
+
+	}
+
+	th:hover {
+		transform: scale(1.1);
+
+	}
+
+	.header {
+		color:black;
+		background-color:silver;
+		font-size:1em;
+		text-align:center;
+		font-weight:bold;
+		margin: 10px;
+		
+	}
+	#homebanner {
+		font-size:3em;	
+	}
+	
+	.options {
+		width:100%;
+	}
+
+	.middle {
+		font-size: 15px;
+		border: 3px darkgreen solid;
+		//margin: 5px;
+		border-radius: 5px;
+	}
+	
+	</style>
+	</head>
+
+	<body>
+		<div class = "header">
+
+			<div id = "homebanner">
+			Welcome To The Brass Forest
+			</div>
+
+			<div class"options" id = "navbar">
+				<table style = "width:100%">
+					<ul>
+						<th>Recent Works</th>
+						<th>Playlists</th>
+						<th>Artists</th>
+						<th>Sheet Music</th>
+					</ul>
+				</table>
+			</div>			
+		</div>
+
+		<div class = "middle col-md-7 col-xs-6">
+		<h2>Thanks for visiting!</h2> <hr> A Simple Trick That Will Make Your Dialogue Sound Better & Stand Out in the Mix
+Parametric EQ Notching
+Mixing dialogue for maximum impact and clarity can be challenging, especially within the context of a mix that has multiple tracks of sound effects and music.
+There's one extremely simple trick, however, that can make your dialogue stand out from everything else in the mix, which makes it easier for your audience to focus on and comprehend said dialogue. It's an equalization trick called notching, and Curtis Judd has an excellent tutorial to show you how it's done.
+		<a href="https://stackoverflow.com/questions/2408146/href-image-link-download-on-click"> downloadable links</a>
+		</div>
+		<div class="col-md-5 col-xs-6">
+		<img src="clempix/instrumentsa.jpg">
+		<img src="clempix/instrumentsb.jpg">
+		<img src="clempix/instrumentsc.gif">
+		<img src="clempix/instrumentsd.jpeg">
+		<img src="clempix/instrumentse.jpg">
+		<img src="clempix/instrumentsf.jpg">
+		</div>
+	</body>
+</html>
