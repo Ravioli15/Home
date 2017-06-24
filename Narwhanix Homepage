@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Narwhanix Studios</title>
+	</head>
+
+	<style>
+		a:link { text-decoration: none;}
+		a:link { color: forestgreen; }
+		a:visited { color: forestgreen; }
+		a:hover { text-decoration: underline; color: indigo; transform:scale(1.1);}
+		p.solid {border-style: solid;}
+		h1 {margin-bottom: 2pt;}
+		table {width:100%;background-color:indigo;}
+		th {background-color:skyblue; border-radius:3px; padding:7px;}
+		th:hover{color:purple; text-decoration: underline;}
+
+		body { 
+			background-image:url("./wixpix/skyb.jpg");
+   			background-repeat:no-repeat;
+   			background-size:cover;
+			font-family: Papyrus, fantasy;
+		}
+
+		.image {				
+			border: 5px darkblue solid;
+			border-radius: 10px;
+			max-width:900px;
+			width:100%;
+			height:350px;
+		}
+
+		.header { 
+			position: absolute;
+			font-weight:bold;
+			top:31%;
+			left:32%;
+			right:32%;
+			text-align: center;
+			overflow: hidden;
+		}
+
+		.placeholder {
+			position: relative;
+			<!background-color: skyblue;
+			border: 5px darkblue solid;
+			border-radius: 5px;
+			<!max-width:900px;
+			<!min-width:900px;
+		}
+
+	</style>
+
+	<body>
+
+		<center>				
+			<img class="image" src = "wixpix/nwix.png">
+			<div class = "header">		
+					<h1><a href = "drjfred.html">~Narwhanix Studios~
+					</a></h1>
+					3D modeling, art, animations, gaming and more!
+				</div>						
+			</center>
+							
+			<div class = "placeholder">
+
+				<div class = "artbox">
+					<table align="center">	
+					<tr>
+						<th> 3D Models </th>
+						<th> Speedpaints </th>
+						<th> Art Streams </th>
+						<th> Let's Plays </th>
+					</tr>
+					</table>
+				</div>
+
+				<center>This is a placeholder! My name is Ex0lon or something and I might want to add stuff here!
+				<br>
+				<!--<video width="200" controls autoplay = "autoplay" loop="loop">
+		  		<source src="char.mp4" type="video/mp4">--></center>
+		  		<center><img src = "whims.gif" width = "200"></center>
+				
+				
+				<br><h3>News and Updates:</h3>
+				<br><br><br><h3>Recent Works:</h3>
+				<br><h2>Ride the Narwhanix!</h2>
+
+				<h3>
+				 <a href="https://www.youtube.com/channel/UCAMn_paAQqBehy6YIWis8Fw"> <img src=wixpix/fwix.png height="170" width="170"> </a>
+				 <a href="https://www.youtube.com/channel/UCAMn_paAQqBehy6YIWis8Fw"> <img src=wixpix/fwix.png height="170" width="170" align="right"> </a>
+				<a href="https://www.youtube.com/channel/UCAMn_paAQqBehy6YIWis8Fw"> To Youtube,</a>
+				<a href="https://www.twitch.tv/ex0lon/videos/all">  To Twitch,</a>
+				<a href="home.html"> Somewhere else</a>
+				</h3>		
+			</div>
+			<form> Select a Theme
+			  <input type="radio" name="theme" value="./wixpix/skya.jpg" checked> Sky1
+			  <input type="radio" name="theme" value="./wixpix/skyb.jpg"> Sky2
+			  <input type="radio" name="theme" value="./wixpix/water.jpg"> Water
+			  <input type="radio" name="theme" value="./wixpix/nwix.png"> Narwhanix
+			  <input type="submit" value= "Confirm">
+			</form>		
+		</div>
+	</body>
+</html>
