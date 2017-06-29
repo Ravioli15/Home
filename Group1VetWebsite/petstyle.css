@@ -1,0 +1,87 @@
+		a:link { text-decoration: none;}
+		a:link { color: grey; }
+		a:visited { color: black; }
+		a:hover { text-decoration: underline; }
+		a:hover { color: indigo }
+		p.solid {border-style: solid;}
+
+		body { 
+			background-color: #999f8e;
+			background-repeat:no-repeat;
+			background-size:cover;
+			font-family: Geneva, Tahoma, Verdana, sans-serif;
+			font-size: 14px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight:bold;
+			line-height: 20px;
+			float-left;
+		}
+
+		img {
+		width:200px;
+		margin:30px;
+		}
+
+		.header { 
+			background-color: #d2d8c7;
+			font-size: 2.5em;
+			font-weight: bold;
+			margin: 5px;
+			padding: 10px;
+			//border: 4px black solid;
+			border-radius: 10px;
+			text-align:center;
+		}
+		
+		.name {
+			color: black;
+			text-decoration: bold;
+			font-size: 20px;
+		}
+
+		.body {
+			background-color: #d2d8c7;
+			margin: 10px;
+			padding: 10px;
+			//border: 4px black solid;
+			border-radius: 10px;
+			float: left;
+		
+}
+		
+
+		.menu {
+			background-color: white;
+			margin: 5px;
+			border: 4px black solid;
+			border-radius: 10px;
+			text-align: center;
+		}
+
+		.menuheader {
+			font-size: 30px;
+			color:yellow;
+			margin:5px;
+		}
+
+		.pagelinks {
+			font-size:15px;
+			margin:10px;
+		}
+
+		.catalog {
+			text-align:center;
+			border: black 2px solid;
+			margin: 10px;
+			width:270px;
+			float:left;
+		}
+
+		.catalog2 {
+			height:170px;
+		}
+
+		.form {
+			text-align:center;
+		}
