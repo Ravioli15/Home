@@ -1,0 +1,111 @@
+<!--Here's a file with as many quick and basic vocab terms and explanations of html as I can think of.
+It's not as much as it looks, but before you look at it, various different pages on this site can probably
+Explain it even better than me if you have the energy to look https://www.w3schools.com/html/default.asp-->
+
+<!DOCTYPE html> 
+
+<!-- "<!DOCTYPE html>" is the doctype declaration or DTD. It tells your computer 
+that the following code is written in HTML5, the most current version of HTML which was released in late 2014.
+It won't make a difference or even show up in your page, so all you need to know about it is that every good webpage
+starts with it and it will make everyone happy if you remember it.-->
+
+<!--This greenish text is greenish because its a comment. A comment is any text written in the code
+that isn't read by the computer. It's meant exclusively to be seen by human eyes. If you want to write
+yourself a reminder you can write it in a comment by creating "<!--" and everything following it will be a comment
+until you put  "-->"
+
+<!-- "tags" are the words or acronyms at the beginning and end of all your data that are enclosed in angle brackets.
+So "<html>" is a tag "<head>" is a tag the div elements that should make up most of your body are in "<div>" tags, etc.
+In most cases, a start tag is eventually followed by an end tag that has a "/" after the first angle bracket.
+example: <div> pets are cool </div> 
+
+An element is everything from one start tag to its end tag. In the previous example, you could say "pets are cool"
+is the element, or "pets are cool belongs to that particular div element"
+
+It's normal to put whole elements inside of other elements, and often necessary to make certain effects.
+example: <div> <center> This is centered text </center> </div>
+
+		< = angle brackets
+		( = round bracket or simply parenthesis
+		{ = curly bracket, squiggly bracket, or braces. People call them all three. Call them whatever you prefer.
+
+The following tags are arranged in the most basic structure of an html file:
+
+<html>
+	<head>
+		<title> Page title here </title>
+		<style> Page Layout Data here </style>		NOTE: if the html file is connected to a stylesheet, then instead of two style tags,
+	</head>											there will be a link to the stylesheet, or CSS file
+													example: <link rel="stylesheet" href="petstyle.css">
+	<body>											"CSS" stands for "Cascading Style Sheets" btw
+		<div>
+		body element 1
+		</div>
+
+		<div>
+		body element 2
+		</div>
+	</body>
+</html>
+
+Indentation is very important for improving the "readability" of your code. If you indent well, it will make it easier
+for other programmers to read your code. When you put one element inside of another, indent it. If two tags are both in
+the same element at the same level, like the div elements in the above example, don't indent. If you do it correctly, your
+page should resemble a nice heirarchy of tags.-->
+
+<html>
+	<head>
+		<title> BoringVetNotes </title>
+		<style>
+		
+		.bob {
+			background-color:red;		<!--NOTE: Make sure when you're adding attributes to a class between the style tags that you put a semicolon ";"-->
+			color:yellow;				<!-- after every one-->
+		}
+		
+		.yomama {
+			background-color:green;
+		}
+		
+		</style>		
+	</head>
+				
+	<body>
+		<div style= "background-color:blue">
+		body element 1
+		</div>
+
+		<div class="bob">
+		body element 2
+		</div>
+		
+		<div class="yomama" style= "font-size:50px">
+		body element 3
+		</div>
+		<br><br><br><br><br><br> <!--NOTE: "<br>" is a special tag that creates a space. Or many spaces if you use many. It's unique in that it doesn't-->
+		<hr>						<!--require an end tag. "<hr>"creates a line and also doesn't need an end tag. They both come in handy, but mostly <br>-->
+		<div>
+		holy shit more text.
+		</div>
+	</body>
+</html>
+
+<!--In the above html there are examples of two different ways to add CSS to your file. The first is called "Inline CSS"
+This part  <div style="background-color:red"> showed Inline CSS, which is placed right inside the opening tag before the closing angle bracket.
+
+The second div element  <div class="bob">  used what's called "Embedded CSS." Inside the opening div tag, the class is defined as bob,
+so all of the styling in the .bob class inside the style tags applies to that element.
+
+The third div uses both. you can experiment with some other stuff like adding "border: 5px solid black" or "text-align:center" or "width:40px" or
+"margin: 10px" or "padding: 200px" or "float:right" or 
+
+The part of CSS that describe exactly how to modify your elements are either called "attributes" and "modifiers"
+example: <tag class="classname" style="attribute:modifier:>
+
+There is also external CSS, which links your html file to a CSS file and is the preferred way to use CSS, 
+but I don't feel like explaining that right now. https://www.w3schools.com/html/html_css.asp That page explains it.
+
+Seriously though, w3school has everything you need to know about hmtl and more. It'll show you how to make pictures
+and move stuff around and everything with examples. Check it out at some point.
+
+
