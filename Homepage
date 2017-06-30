@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <HTML>
 	<HEAD>
-		<TITLE> Warren's Home Page </TITLE>
+		<TITLE> Ravioli's Home Page </TITLE>
 		
 		<style>
 
@@ -71,10 +71,10 @@
 
 		<BODY background = homepix/line.jpg text=yellow link= ffffff vlink = e47833>
 
-			<Address> This document was created by Warren Fletcher IV (fletcherw19@uww.edu)
+			<Address> This document was created by Ravioli (Raviolisemail@gmail.com)
 			Last modified 22/2/17</Address>
 			<div class = "header">
-				<center><H1> Warren's Home Page</H1></center>
+				<center><H1> Ravioli's Home Page</H1></center>
 			</div>
 
 			<div= table>
@@ -82,7 +82,7 @@
 				<tr>
 					<th><a href= "https://www.youtube.com/channel/UClxelY1uTy5ZaGeHwZWTw_w"> Youtube</a></th>
 
-					<th><a href= "https://www.facebook.com/guywhoisalive>Facebook" </a></th>
+					<th><a href= "https://www.facebook.com/myfacebookpage>Facebook" </a></th>
 
 					<th><a href = "https://www.studynet2.herts.ac.uk/ptl/Students366.nsf/Homepage?readform">Studynet</a></th>
 
@@ -96,7 +96,7 @@
 			<div class = rabble>
 
 			
-				<P> I am a full-time student at UH located in Hatfield</P>
+				<P> I am a full-time student at UW-Whitewater located in Wisconsin</P>
 				<I> Web Scripting is <B> Pretty cool </B> </i>
 				<p><a href=https://www.w3schools.com/csSref/css_colors.asp> Here's a library of css colors</a>
 				<a href = "http://www.colorpicker.com/"> Heres the css color slider thing</a>
@@ -228,11 +228,11 @@ I wonder where that lizard is going..
 
 
 			<div class=references>
-				<footer> <Address> Warren Fletcher
+				<footer> <Address> Ravioli
 				<BR> Information Technology, University of Hertfordshire
 				<BR> Mangrove Road, Hertford, Herts SG13 8QF
-				<BR> Phone: +1 414-324-3667
-				<BR> E-mail:<A Href=mailto:wf16aag@herts.ac.uk> wf16aag@herts.ac.uk</A>
+				<BR> Phone: +1 414-324-3445
+				<BR> E-mail:<A Href=mailto:myhertfordshireemail@herts.ac.uk> myhertfordshireemail.ac.uk</A>
 				</Address> </footer>
 			</div>
 		</BODY>
